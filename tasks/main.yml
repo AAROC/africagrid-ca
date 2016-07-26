@@ -1,0 +1,6 @@
+---
+# tasks file for africagrid-ca
+- include: webserver.yml
+- include: web-pages.yml
+- include: pki.yml
+- include: db.yml
