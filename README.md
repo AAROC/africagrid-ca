@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/AAROC/africagrid-ca.svg?branch=master)](https://travis-ci.org/AAROC/africagrid-ca)
 AfricaGrid CA
 =========
 
@@ -23,7 +24,7 @@ Example Playbook
 
     - hosts: online-ca
       roles:
-         - { role: aaroc.aficagrid-ca, become: true }
+         - { role: aaroc.africagrid-ca, become: true }
 
 License
 -------
